@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" /><link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/styles.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="css/styles_phone.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="css/dolar.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="css/load.css" type="text/css" media="all" />
+    <meta name="" content="">
+    <title>Ejercicio Web Js</title>
+    <style>
+      
+    </style>
+  </head>
+  <body class="load" id="load">
+    <div class="der" id="der"></div>
+    <div class="izq" id="izq"></div>
+    <header>
+      <div class="text1">
+        <h1>Análisis y Desarrollo de Sistemas de Información</h1>
+        <p>Subactividad 4 Javascript <i class="fab fa-js-square"></i></p>
+      </div>
+      <div class="img">
+        <img src="image/perfil.jpg" alt="Miguel Amgel Foliaco">
+      </div>
+    </header>
+    <div class="menu" id="btn-menu">
+      
+    <i class="fas fa-ellipsis-h"></i>
+    </div>
+    <nav id="menu">
+      <ul>
+        <li><a href="index.html">Interes</a></li>
+        <li><a href="tabla.html">Tabla</a></li>
+        <li><a href="rectangulo.html">Rectagulo</a></li>
+        <li><a href="#">Conversion USD</a></li>
+        <li><a href="metros.html">Conversion Km</a></li>
+        <li><a href="metros.html">Notas</a></li>
+      </ul>
+    </nav>
+    
+    
+    
+    
+    
+    
+    <main>
+      
+      <div id="modo" class="modo" cambio="true">
+        <i id="modousd" class="fas fa-money-check-alt dolar"></i>
+        <i id="modocop" class="fas fa-money-bill-alt cop"></i>
+      </div>
+     
+      <h1 id="usdTitle">Conversion USD</h1>
+      
+      <div>
+        <h3 id="usdSubtitle">Dolar</h3>
+        <i class="fas fa-dollar-sign"></i>
+        <input type="number" name="num1" id="num1" value="" />
+        
+        <button id="btn_dolar">Convertir</button>
+      </div>
+      <div class="result">
+        <h3 id="copSubtitle">COP</h3>
+        <i class="fas fa-dollar-sign colombia"></i>
+        <p id="result"></p>
+      </div>
+    </main>
+    
+    
+    
+    
+    
+    
+    
+    <aside>
+      <div class="uno">
+        <img class="imgcode" src="image/funciones.jpg" alt="">
+        <p class="p">Aqui escribí las funciones principales que me ayudaran al codigo en eventos y selectores a medida de mi proyecto</p>
+      </div>
+      <div class="dos">
+        <img class="imgcode"  src="image/1.jpg" alt="">
+        <img class="imgcode"  src="image/2.jpg" alt="">
+        <img class="imgcode"  src="image/3.jpg" alt="">
+        <p class="p scroll">Para resumir en la primera imagen es la declaración de variables en la segunda tengo un for donde pinto en el html las opciones de los select y mas debajo una funcion anonima dentro del un evento que hace los calculos, y por ultimo un evento para cambiar de dolar a pesos colombianos y viceversa</p>
+      </div>
+    </aside>
+    
+    
+    <footer>
+      <h3>&copy; Create by Miguel Angel Foliaco 2021</h3>
+    </footer>
+    <script src="code/funciones.js" type="text/javascript" charset="utf-8"></script>
+    <script src="code/load.js" type="text/javascript" charset="utf-8"></script>
+    <script src="code/menu.js" type="text/javascript" charset="utf-8"></script>
+    <script src="code/dolar.js" type="text/javascript" charset="utf-8"></script>
+    </body>
+</html>

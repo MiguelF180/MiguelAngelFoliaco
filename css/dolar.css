@@ -1,0 +1,47 @@
+main{
+  flex-direction:column;
+}
+main h1{
+  color:#7193ff;
+}
+main i,main h3{
+  text-align:center;
+  color:rgb(45,96,255);
+  font-size:40px;
+}
+main i{
+  display:block;
+  width:100%;
+}
+main h3{
+  font-size:20px;
+}
+.colombia{
+  color:rgb(255,237,45);
+}
+.result{
+  height:200px;
+}
+.result p{
+  text-align:center;
+  font-size:18px;
+}
+.modo{
+  display:flex;
+  border-radius:3px;
+  justify-content:center;
+  align-items:center;
+  width:70px;
+  height:70px;
+  padding:3px;
+  background:rgb(255,98,98);
+  margin-bottom:30px;
+}
+.cop{
+  display:none;
+  color:rgb(242,255,11);
+}
+.dos{
+  overflow-y:scroll;
+  height:300px;
+}

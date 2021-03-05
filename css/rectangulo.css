@@ -1,0 +1,36 @@
+.rect{
+  width:90%;
+  margin:auto;
+  justify-content:space-between;
+  align-items:center;
+}
+.grafico{
+  margin-top:20px;
+  padding:10px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  width:40%;
+}
+.scroll{
+  overflow-y:scroll;
+  height:80px;
+}
+.rectangulo{
+  background:linear-gradient(to right, #ff6fde,#ff68ac);
+  width:70px;
+  height:70px;
+  border:2px dashed rgba(0,0,0,0.8);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.rectangulo p{
+  text-align:center;
+  color:white;
+  font-size:24px;
+}
+main{
+  padding:10px;
+}

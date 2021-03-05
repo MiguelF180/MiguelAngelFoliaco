@@ -1,0 +1,21 @@
+main label{
+  display:block;
+  text-align:center;
+}
+.result{
+  width:45%;
+  
+}
+textarea{
+  display:block;
+  min-height:200px;
+  max-height:200px;
+  min-width:90%;
+  max-width:90%;
+  margin:auto;
+  border:1px dashed rgba(0,0,0,0.869);
+  outline:none;
+}
+textarea:focus{
+  border:1px solid #6f9bff;
+}
